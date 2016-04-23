@@ -38,7 +38,7 @@ class Form{
    * $index string
    * @return string
    */
-  
+
   private function getValue($index) {
 
     return isset($this->data[$index]) ? $this->data[$index] : null;
