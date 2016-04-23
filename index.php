@@ -5,10 +5,13 @@ require 'Text.php';
 
 $form = new Form($_POST)
  ?>
+
+
 <form action="#" method="post">
   <?php
 
-var_dump(Text::withZero(10));
+
+  var_dump(Text::publicWithZero(1));
 
   echo $form->input('username');
   echo $form->input('password');
